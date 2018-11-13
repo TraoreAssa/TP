@@ -1,0 +1,140 @@
+
+.container{
+    height: 100%;
+    width: 55%;
+    margin-left: 30%;
+    margin-right: 30%; 
+}
+h1{
+    font-size: 40pt;
+    font-weight: bold;
+}
+.titre{
+    color: rgb(248, 171, 184);
+}
+.tel{
+    background: url(../IMG/aide.png) no-repeat;
+}
+
+.gauche{
+    float: left;
+}
+.milieu{
+    vertical-align: middle;
+}
+
+.droite{
+    float: right;
+}
+
+nav{
+    background-color: aqua;
+    width: 100%;
+    vertical-align: middle;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    height: 50px;
+    
+}
+.paiement, .presentation, .services{
+    height: 50%;
+}
+.services{
+    float: right;
+}
+
+.bloc{
+  border: 2px solid grey;
+  width: auto;
+  height: ;
+  float: left;
+}
+
+h4{
+    background-color: grey;
+    text-align: center;
+    vertical-align: middle;
+}
+h5{
+    color: aqua;
+    font-size: 20pt;
+    margin: 5px;
+    border-right: 1px solid grey;
+}
+.clear{
+clear: both;
+}
+.bloc p a{
+    text-align: right;
+    color: aqua;
+}
+footer{
+    background-color: aqua;
+    width: 100%;
+}
+footer ul li {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+  
+}
+.milieu{
+    vertical-align: middle;
+    color:aqua;
+    font-size: 20pt;
+    
+}
+.tel{
+    color:aqua;
+    font-size: 16pt;
+    background-image: url(../IMG/aide.png) no-repeat;
+
+}
+
+
+.gauche{
+    float: left;
+}
+
+
+
+
+
+
+.container{
+    margin:0% auto;
+    width: 150%;
+    border: 2px solid gray;
+}
+
+section{
+    height: 500px;
+    margin: 20px;
+}
+
+
+footer ul li a{
+    display: inline-block;
+    background-color: aqua;
+    text-decoration: none;
+    color: white;
+}
+ */
