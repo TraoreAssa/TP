@@ -24,7 +24,9 @@ body {
 }
 /* Header */
 header {
-    margin-top: 1%; 
+    margin-top: 1%;
+    background: rgb(241, 238, 238);
+
 }
 /* Haut du header */
 .haut{
@@ -57,26 +59,54 @@ header {
     float: right;
 }
 nav{
-    background-color: rgb(168, 164, 164);
     text-align: center;
-    padding: 17px;
+    height:25%;
+    
 }
 nav a{
+    font-size: 15px;
     text-decoration: none;
     color: black;
-    /* padding: 4px 25px; */
-    /* margin: 0 auto; */
-    
+    border: 1px solid gray;
+    width: 120px;
 }
 /* Fin de ma nav */
 .container{
     margin: 0 auto; 
 }
-/* ID Produit*/
+/* ID Logo */
+.droite{
+    text-align: right;
+    padding: 0;
+}
+.pro1{
+    background-size: 100%;
+    width:220px;
+    height:220px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.pro2{
+    background: url(../../IMG/carrelage8.jpg) no-repeat;
+    background-size: 100%;
+    width:200px;
+    height:200px;
+    position: relative;
+}
+
+.pro1 p, .pro2 p{
+    position: absolute;
+    width: 200px;
+    background: rgb(150, 45, 106);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
 
 .card{
     border: 1px solid grey;
-    margin: 10px 0 10px 0;
+    margin: 15px;
+    padding: 0;
 }
 .card p{
     text-align: center;
@@ -100,20 +130,25 @@ nav a{
 }
 .card .panier i{
     background:  rgb(156, 46, 64);
-    width: 50%;
+   
 }
 .card .devis{
     background: gray;
     height:250px;
 }
 /* fin de ma div carreaux */
+#eshop{
+    background: grey;
+}
+.contact, .nous {
+    border-right: 1px solid white;
+}
 #eshop i{
     margin: 10px;
-    color: rgb(156, 46, 64);
+    color: rgb(136, 29, 46);
     size: 70px;
 }
-.contact{
-    
+.contact{ 
     margin: 0 auto;
     width: 33%;
     border-right: 1px solid white;
@@ -126,33 +161,58 @@ nav a{
     padding-top: 50px;
 }
 
-
-
-
+.clear{
+    clear: both;
+}
 
 
 /***********Début du footer***************/
 footer{
-    background: rgb(229, 226, 226);
-    height: 600px;
+    height: 100%;
     margin: 20px 0;
+    padding: 40px;
+    font-size: 15px;
+    background: rgb(241, 238, 238);
 }
-footer h2, footer p{
-    
-    display: inline-block;
-    width: 25%;
+footer iframe{
+    float: left;
 }
-#eschop hr, footer hr{
-    width: 20%;
-    height: 80px;
-}
-footer a{
+
+footer .eshop a, footer .info a {
     color: black;
     display: block;
 }
 
-
-button{
-   
-
+footer .newsletter, footer .partage{
+    background: rgb(229, 226, 226);
+    margin-bottom:15px;
 }
+h5, footer h6{
+    text-align: center;
+}
+
+footer .newsletter  p, footer .partage p{
+    text-align: center;
+    line-height: 55px; 
+}
+form{
+    padding: 15px;
+}
+label{
+    padding-bottom: 10px;
+    text-align: center;
+}
+footer .reseauxS a {
+    display: inline;
+    color: black;
+    padding:15px;
+  
+}
+footer button{
+    position: fixed;
+    background: transparent;
+    right: 50%;
+    cursor: pointer;
+    border:none;
+    bottom: 70px;
+ }
