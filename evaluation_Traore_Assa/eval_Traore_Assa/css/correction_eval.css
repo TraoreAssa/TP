@@ -1,0 +1,53 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: black;
+}
+/* Style Header */
+#main-header{
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+}
+#espace-personnel{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    text-align: right;
+}
+/* Style Main Navigation */
+#main-navigation ul{
+    display: flex;
+}
+.articles-section{
+    display: flex;
+    justify-content: center;
+
+}
+#footer-navigation ul{
+    display: flex;
+}
+#services{
+    display: flex;
+}
+#reseaux-sociaux{
+    display: flex;
+}
+.copyright{
+    text-align: center;
+}
+/* Style Section */
+section{
+    width: 55%;
+    margin: auto;
+    background: #fff;
+}
+section .baniere > img{
+    width: 100%;
+}

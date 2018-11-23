@@ -1,0 +1,123 @@
+body{
+    width: 85%;
+    margin: 0 auto;
+}
+/* Mise en page du Header */
+header{
+    height: 100%;
+    padding: 30px;
+    width: 1052px;
+    width: 50%;
+    margin: 0 auto;
+}
+/* Div logo (Logo et texte en dessous) */
+.logoD{
+    float: left;
+    border-left: 5px solid orange;
+    font-size: 25px;
+    margin: 30px 100px;
+    height: 150px;
+}
+span{
+    color: orange;
+}
+
+/* Div droite (Mon Compte,Panier; Message de bienvenue...) */
+.compte{
+    float: left;
+    margin: 10px 45px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header .droite p{
+    text-align: right;
+    font-size: 20px;
+    margin: 20px 130px;
+}
+nav{
+    margin-top: 70px;
+}
+nav a{
+    border-right: 1px solid;
+    padding: 10px;
+}
+.clear{
+    clear: both;
+}
+/* Fin du Header // Debut du container */
+main{
+    background: black;
+    width: 80%;
+    margin: 0 auto;
+}
+.container{
+    width: 1090px;
+    margin: 0 auto;
+    background: white;
+}
+.container .photo{
+    box-shadow:3px 3px 3px black;
+    margin: 0 auto;
+}
+.container p{
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: 15px; 
+}
+figure{
+    border: 2px solid;
+    box-shadow: 3px 3px 3px  black;
+    width: 400px;
+    text-align: center;
+}
+.gantrouge p{
+    text-transform: dotted;
+    
+}
+button{
+    background: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px 50px;
+    float: left;
+}
+
+figcaption{
+    text-align: center;
+}
+
+.aide{
+    background: white;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.aide a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+/* fin du Container // Debut du Footer */
+footer{
+    background: rgb(221, 216, 216);
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row; 
+}
+.flex div{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+}
