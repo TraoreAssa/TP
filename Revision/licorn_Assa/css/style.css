@@ -1,0 +1,161 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 13px;
+}
+/* titre */
+h1, h2, h3{
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+    font-size: 16px;
+
+}
+h1{
+    color: #C55394;
+    position: absolute;
+    font-size: 25px;
+    margin: 10px;
+    bottom: 30%;
+    right: 40%;
+    
+}
+h2,h3{
+    color:  #EB43A3;
+    margin-bottom: 20px;
+}
+/* Haut de la page */
+header{
+    background: #C55394;
+    height: 50px;
+    padding: 15px 15px 5px 15px;
+}
+header h2{
+    color:#fff;
+    font-size: 25px;
+    font-style: italic;
+    float: left;
+}
+/* Menu */
+nav{
+    text-align: right;
+    padding: 10px;
+
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    display: inline;
+    font-size: 12px;
+    padding: 15px;
+    
+}
+nav a:hover{
+    background: #EB43A3;
+    padding: 25px;
+}
+
+/* Main (Contenu du Milieu) */
+/* Image arc en ciel */
+.titre{
+    width: 40%;
+    margin: 0 auto;
+    height: 150px;
+}
+main{
+    background-image: url(../img/background.png);
+}
+/* contenu avec text et image  */
+.contenu{
+    background: #fff;
+    width: 60%;
+    height: 1100px;
+    margin: 0 auto;
+    border: 3px solid rgb(158, 157, 157);
+    border-radius: 20px;
+    
+}
+section{
+    margin: 40px 35px;
+}
+
+#licornes div, .titre{
+    position: relative;
+}
+/* section licornes */
+.flex{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+#licornes img{
+    height: 220px;
+    width: 220px;
+    margin: 10px;
+}
+#licornes p{
+    position: absolute;
+    bottom: 0;
+    width: 220px;
+    background: #000;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding-top: 4px;
+    opacity: 1.5;
+}
+.clear{
+    clear: both;
+}
+
+/* section nous trouver */
+iframe{
+    float: left;
+    margin-right: 25px; 
+}
+
+button{
+    background:  #EB43A3; 
+    border: 2s solid #EB43A3;
+    color: #fff;
+}
+input, button{
+    margin-top: 5px;
+}
+
+/* Bas de page */
+footer{
+    background: #EB43A3;
+    height: 30px;
+    margin: 20px 0px;
+}
+footer p{
+    color: #fff;
+    text-align: right;
+    font-size: 10px;
+    padding: 10px;
+}
+
